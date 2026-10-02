@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5298afcdff46ca4c813237ef44013a8, type: 3}
+  m_Name: DoctorSO
+  m_EditorClassIdentifier: 
+  BackgroundPortrait: {fileID: 21300000, guid: 586baaa211ad969458d1c381cf81f64e, type: 3}
+  BackgroundLandscape: {fileID: 21300000, guid: 17dfa44278f3aca4fa44d678ced7073a, type: 3}
+  TestingTopSprite: {fileID: 21300000, guid: a3979fd5451f5a840a849708528675dc, type: 3}
+  TestingMiddleSprite: {fileID: 21300000, guid: cf1f254f108c43647a29790b9916f45d, type: 3}
+  TestingBottomSprite: {fileID: 21300000, guid: d0436ca99d3264b43a7b867e35ccda12, type: 3}
+  PlayerCharacter: {fileID: 21300000, guid: 48858fea8597f2c4dbc147d7b6617c3f, type: 3}
+  NPC: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  PlayerCharacterHappy: {fileID: 21300000, guid: 493577bbc349c2b4889cb79992ecee00, type: 3}
+  NPCHappy: {fileID: 21300000, guid: 6b03b1b4080d97b418882d91e27f0bd6, type: 3}
+  PlayerCharacterSad: {fileID: 21300000, guid: b28501b061f685846b53ef3874860f18, type: 3}
+  NPCSad: {fileID: 21300000, guid: c1c9aa2858c20ed4cbec0454bacb5dd1, type: 3}
+  NPCName: Sr. Doctor
+  MusicTrackName: Surgeon
+  BackgroundColor: {r: 0, g: 0.7607843, b: 1, a: 1}
+  TextColor: {fileID: 11400000, guid: 5d8b7585f36cd49458a3954f0a31e6bf, type: 2}
+  TermList:
+  - Scalpel
+  - Surgical gloves
+  - Cataract surgery
+  - Antibiotic
+  - Surgery
+  - Operation
+  - Euthanesia
+  - Anesthesia
+  - X-ray
+  - Medical intervention
+  Minigame1Questions:
+  - Term1: Medical
+    Term2: Curative
+    CorrectNym: Synonym
+    Explanation: These words share the same meaning, making them synonyms.
+  - Term1: Scalpel
+    Term2: Blade
+    CorrectNym: Hyponym
+    Explanation: One of these words has a more specific meaning than the other, making
+      it a Hyponym.
+  - Term1: Heimlich manouvre
+    Term2: Henry Heimlich
+    CorrectNym: Eponym
+    Explanation: This term is derived/named after someone, making it an eponym.
+  - Term1: Gloves
+    Term2: Surgical gloves
+    CorrectNym: Retronym
+    Explanation: This word changed meaning due to technological advancement, making
+      it a retronym.
+  - Term1: Cognitive
+    Term2: Cognizant
+    CorrectNym: Paronym
+    Explanation: These words have near identical spelling/pronunciation, but different
+      meanings, making them Paronyms
+  Minigame2Questions:
+  - Instruction: Remove a cloudy eye lens and replace it with an artificial one.
+    CorrectTerm: Cataract surgery
+    Minigame2Hint: The medical condition that causes clouded eye lenses is known
+      as cataract.
+  - Instruction: Check the patient for any broken bones.
+    CorrectTerm: X-ray
+    Minigame2Hint: "R\xF6tngen discovered an unknown type of radiation he called:
+      \"X-radiation\" which can pass through the human body and create an image of
+      the inside."
+  - Instruction: Help the patient in learning to walk again.
+    CorrectTerm: Physical therapy
+    Minigame2Hint: often after a long term injury or invasive surgery, a patient
+      must undergo a process of physical excercises to regain control over their
+      extremities.
+  - Instruction: Inspect the inside of a patient using a tiny camera.
+    CorrectTerm: Endoscopy
+    Minigame2Hint: Not to be confused with the similarly named colonoscopy, where
+      the camera is specifically inserted into the patient's rectum.
+  - Instruction: Give the patient this to fight/avoid bacterial diseases.
+    CorrectTerm: Antibiotic
+    Minigame2Hint: There are many different types of antibiotics for the many differnt
+      types of bacterial diseases.
+  Minigame3Questions:
+  - Instruction: Operating Table
+    CorrectObjectName: OperatingTable
+    Hint: The operating table is where the patient is located during the surgery.
+  - Instruction: Anesthesia Machine
+    CorrectObjectName: AnesthesiaMachine
+    Hint: The anesthesia machine is a large, movable installation used to put the
+      patient to sleep for the surgery.
+  - Instruction: Medical Computer
+    CorrectObjectName: MedicalComputer
+    Hint: The medical computer is a central hub for patient data and real-time imaging.
+  - Instruction: IV Stand
+    CorrectObjectName: IVStand
+    Hint: The IV stand is where IV fluid bags are hung. The height controls the flow
+      of the IV.
+  - Instruction: Surgical Boom Light
+    CorrectObjectName: SurgicalBoomLight
+    Hint: The surgical boom is a large arm used to move lights and plugs around the
+      room.
+  Minigame3Scene: Minigame 3
+  ExplorerWorld: Explorer Doctor
+  Shopitem1: {fileID: 11400000, guid: 5408be709d8710044989950d32de3030, type: 2}
+  Minigame1Script:
+  - Ah, doctor. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame2Script:
+  - Ah, doctor. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame3Script:
+  - Ah, doctor. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame1Dialogue:
+  - text: Ah, Doctor. You're here, good.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Today is something more challenging.
+    characterSprite: {fileID: 21300000, guid: c1c9aa2858c20ed4cbec0454bacb5dd1, type: 3}
+  - text: We're comparing some terms.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Let's get started.
+    characterSprite: {fileID: 21300000, guid: 6b03b1b4080d97b418882d91e27f0bd6, type: 3}
+  Minigame2Dialogue:
+  - text: Hello, Doctor.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Today we will be reviewing some terms.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Just follow my instructions.
+    characterSprite: {fileID: 21300000, guid: 6b03b1b4080d97b418882d91e27f0bd6, type: 3}
+  - text: Let's begin.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  Minigame3Dialogue:
+  - text: Welcome, doctor.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Time to get your bearings around the operating room.
+    characterSprite: {fileID: 21300000, guid: 4863ff63468c50245bb12afa76e5d669, type: 3}
+  - text: Lets begin.
+    characterSprite: {fileID: 21300000, guid: 6b03b1b4080d97b418882d91e27f0bd6, type: 3}

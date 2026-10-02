@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5298afcdff46ca4c813237ef44013a8, type: 3}
+  m_Name: LawyerSO
+  m_EditorClassIdentifier: 
+  BackgroundPortrait: {fileID: 21300000, guid: 9c4f0aadd4b81994e87e54fb55e41322, type: 3}
+  BackgroundLandscape: {fileID: 21300000, guid: aaa4bfe96026e374e9c164b6b39abc91, type: 3}
+  TestingTopSprite: {fileID: 21300000, guid: 6a39ca6edc3df4e4dbc4911cbcc5ae04, type: 3}
+  TestingMiddleSprite: {fileID: 21300000, guid: cb6d93d998425eb45ba1b8bbb7eff02a, type: 3}
+  TestingBottomSprite: {fileID: 21300000, guid: ec6fd5e072c672f48a23b84d49812430, type: 3}
+  PlayerCharacter: {fileID: 21300000, guid: 12a215ab8cbe3e74b8048434bc0f6986, type: 3}
+  NPC: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  PlayerCharacterHappy: {fileID: 21300000, guid: 8d0469a28457a234eae8205ada208e0b, type: 3}
+  NPCHappy: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}
+  PlayerCharacterSad: {fileID: 21300000, guid: df9bcf33a9c486f42a70ebd243a74c1e, type: 3}
+  NPCSad: {fileID: 21300000, guid: f5843e61ae60a4e4e9151a874c8a93cc, type: 3}
+  NPCName: Sr. Lawyer
+  MusicTrackName: Courtroom
+  BackgroundColor: {r: 0, g: 0.7607843, b: 1, a: 1}
+  TextColor: {fileID: 11400000, guid: 0cff66d9d5995704d9615f46150861dc, type: 2}
+  TermList:
+  - Plaintiff
+  - Appeal
+  - Objection
+  - Examination
+  - Cross-examination
+  - Impeach
+  - Oath
+  - Settlement
+  - Defendant
+  - Record
+  Minigame1Questions:
+  - Term1: Plaintiff
+    Term2: Accuser
+    CorrectNym: Synonym
+    Explanation: These words share the same meaning, making them synonyms.
+  - Term1: Object
+    Term2: Object
+    CorrectNym: Heteronym
+    Explanation: This word changed meaning when pronounced differently, making it
+      a heteronym.
+  - Term1: Written
+    Term2: Handwritten
+    CorrectNym: Retronym
+    Explanation: This word changed meaning due to technological advancement, making
+      it a retronym.
+  - Term1: Crime
+    Term2: Larceny
+    CorrectNym: Hyponym
+    Explanation: One of these words has a more specific meaning than the other, making
+      it a Hyponym.
+  - Term1: Defendant
+    Term2: Plaintiff
+    CorrectNym: Antonym
+    Explanation: These words have opposite meanings, making them antonyms of one
+      another.
+  Minigame2Questions:
+  - Instruction: Call this testimony into question.
+    CorrectTerm: Impeach
+    Minigame2Hint: This term may also be used when a president is asked to account
+      for potential wrongdoing.
+  - Instruction: Promise to tell the truth and nothing but the truth.
+    CorrectTerm: Oath
+    Minigame2Hint: 'To lie while under oath is a grave offense known as "perjury". '
+  - Instruction: Compensate financially to avoid going to trial.
+    CorrectTerm: Settlement
+    Minigame2Hint: This is a way to settle the issue without having to go to trial.
+      Often done by corporations to avoid a tarnished reputation.
+  - Instruction: To ask another court to decide whether the trial was conducted properly.
+    CorrectTerm: Appeal
+    Minigame2Hint: Often done in an attempt to appeal to a higher court's better
+      judgment.
+  - Instruction: Make sure everything happening in the lawsuit is written down.
+    CorrectTerm: Record
+    Minigame2Hint: These days, cameras and microphones are also used for this purpose.
+      But a written record is still required.
+  Minigame3Questions:
+  - Instruction: Bailliff
+    CorrectObjectName: Bailliff
+    Hint: The bailliff takes care of security during law proceedings.
+  - Instruction: Defendant
+    CorrectObjectName: Defendant
+    Hint: The defendant is the individual charged with a crime.
+  - Instruction: Prosecutor
+    CorrectObjectName: Prosecutor
+    Hint: The prosecutor is the legar representative who brings the criminal charges.
+  - Instruction: Witness
+    CorrectObjectName: Witness
+    Hint: A witness has alleged knowledge about the subject of the trail and is asked
+      to take the stand and explain what they know.
+  - Instruction: Jury
+    CorrectObjectName: Jury
+    Hint: The jury is a group of individual who give a verdict on a legal case based
+      on the evidence submitted during court proceedings.
+  Minigame3Scene: Minigame 3 Law
+  ExplorerWorld: Explorer Law
+  Shopitem1: {fileID: 11400000, guid: 86423dbf6b2d0ba49b9b06fba99a5079, type: 2}
+  Minigame1Script:
+  - Ah, lawyer. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame2Script:
+  - Ah, lawyer. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame3Script:
+  - Ah, lawyer. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame1Dialogue:
+  - text: Welcome back, Lawyer.
+    characterSprite: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}
+  - text: Today we're gonna relate some terms for a change.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: This one might prove a bit more difficult.
+    characterSprite: {fileID: 21300000, guid: f5843e61ae60a4e4e9151a874c8a93cc, type: 3}
+  - text: But I'm sure you'll be just fine.
+    characterSprite: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}
+  - text: Let's get started.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  Minigame2Dialogue:
+  - text: Hey there, Lawyer.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: Let's review some law terms.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: This shouldn't take too long.
+    characterSprite: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}
+  - text: Let's begin!
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  Minigame3Dialogue:
+  - text: hello there, Lawyer!.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: Time to get you aquainted with the courtroom.
+    characterSprite: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}
+  - text: You''ll be spending quite some time here.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: So it's important to know your way around.
+    characterSprite: {fileID: 21300000, guid: 96db264cfa1d1c84aafd26e9f1881420, type: 3}
+  - text: Let's get started, eh?
+    characterSprite: {fileID: 21300000, guid: 93206608af672474eb4ddf8efa290973, type: 3}

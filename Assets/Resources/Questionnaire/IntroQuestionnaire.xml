@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <QuestionData>
+      <QuestionId>Q1</QuestionId>
+      <QuestionText>Which statement fits you best? (Action / Thought)</QuestionText>
+      <Category>GamerType</Category>
+      <Answers>
+        <AnswerOption>
+          <AnswerText>I act and not think about the consequences.</AnswerText>
+          <KillerWeight>0.25</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I act first then think about the consequences.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0.25</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I think carefully before acting.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0.25</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I like to think things over before I act.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0.25</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+      </Answers>
+    </QuestionData>
+    <QuestionData>
+      <QuestionId>Q2</QuestionId>
+      <QuestionText>Which statement fits you best? (Feeling / Emotion)</QuestionText>
+      <Category>GamerType</Category>
+      <Answers>
+        <AnswerOption>
+          <AnswerText>I weigh my feelings carefully avoiding raw emotion.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0.25</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I mostly weigh my feelings but let in raw emotion too.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0.25</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I act on raw emotion but also consider the weight of my feelings.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0.25</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I act on raw emotion rather than weighing my feelings.</AnswerText>
+          <KillerWeight>0.25</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+      </Answers>
+    </QuestionData>
+    <QuestionData>
+      <QuestionId>Q3</QuestionId>
+      <QuestionText>Which statement fits you best? (Can / Want)</QuestionText>
+      <Category>GamerType</Category>
+      <Answers>
+        <AnswerOption>
+          <AnswerText>I am guided entirely by what I am able to do.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0.25</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I am mostly guided by what I am able to do.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0.25</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I am mostly guided by what I want to do.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0.25</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I am guided only by what I want to do.</AnswerText>
+          <KillerWeight>0.25</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+      </Answers>
+    </QuestionData>
+    <QuestionData>
+      <QuestionId>Q4</QuestionId>
+      <QuestionText>Which statement fits you best? (Office / Field – Theory / Practice)</QuestionText>
+      <Category>GamerType</Category>
+      <Answers>
+        <AnswerOption>
+          <AnswerText>I like to work alone in an office, exploring ideas and theories.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0.25</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I like to work with others in an office, sharing ideas and theories.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0.25</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I like to put theory into practice in the field, working on my own.</AnswerText>
+          <KillerWeight>0.25</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>I like to put theory into practice in the field, together with others.</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0.25</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>0</LawyerWeight>
+          <SurgeonWeight>0</SurgeonWeight>
+          <CookWeight>0</CookWeight>
+        </AnswerOption>
+      </Answers>
+    </QuestionData>
+    <QuestionData>
+      <QuestionId>Q5</QuestionId>
+      <QuestionText>Which order matches your interests best?</QuestionText>
+      <Category>JobPreference</Category>
+      <Answers>
+        <AnswerOption>
+          <AnswerText>1. Lawyer 2. Surgeon 3. Chef</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>3</LawyerWeight>
+          <SurgeonWeight>2</SurgeonWeight>
+          <CookWeight>1</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>1. Surgeon 2. Lawyer 3. Chef</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>2</LawyerWeight>
+          <SurgeonWeight>3</SurgeonWeight>
+          <CookWeight>1</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>1. Lawyer 2. Chef 3. Surgeon</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>3</LawyerWeight>
+          <SurgeonWeight>1</SurgeonWeight>
+          <CookWeight>2</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>1. Surgeon 2. Chef 3. Lawyer</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>1</LawyerWeight>
+          <SurgeonWeight>3</SurgeonWeight>
+          <CookWeight>2</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>1. Chef 2. Surgeon 3. Lawyer</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>1</LawyerWeight>
+          <SurgeonWeight>2</SurgeonWeight>
+          <CookWeight>3</CookWeight>
+        </AnswerOption>
+        <AnswerOption>
+          <AnswerText>1. Chef 2. Lawyer 3. Surgeon</AnswerText>
+          <KillerWeight>0</KillerWeight>
+          <SocializerWeight>0</SocializerWeight>
+          <AchieverWeight>0</AchieverWeight>
+          <ExplorerWeight>0</ExplorerWeight>
+          <LawyerWeight>2</LawyerWeight>
+          <SurgeonWeight>1</SurgeonWeight>
+          <CookWeight>3</CookWeight>
+        </AnswerOption>
+      </Answers>
+    </QuestionData>
+  </Questions>
+</Data>

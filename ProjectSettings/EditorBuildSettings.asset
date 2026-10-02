@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu/IntroSequence.unity
+    guid: a30bbf1ce777cae41a700588a410acdb
+  - enabled: 1
+    path: Assets/Scenes/Menu/IntroMenu.unity
+    guid: 93017b0457f13a14ba8546ccd974ac41
+  - enabled: 1
+    path: Assets/Scenes/Menu/Questionnaire.unity
+    guid: b1c9dd95f91954e408029d1be75d13dc
+  - enabled: 1
+    path: Assets/Scenes/Menu/JobMenu.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Menu/Testing.unity
+    guid: 2c402880baaf8e64f9c5868be39b586b
+  - enabled: 1
+    path: Assets/Scenes/Menu/Shop.unity
+    guid: 7b0bbec7c761b214492bd88a28baf5f6
+  - enabled: 1
+    path: Assets/Scenes/Menu/Explorer Doctor.unity
+    guid: fe4cefd13e5ec8b4d8551b638c366cf5
+  - enabled: 1
+    path: Assets/Scenes/Menu/Explorer Chef.unity
+    guid: b0c6bdeecc4d85a4db2b17f7651c4c7c
+  - enabled: 1
+    path: Assets/Scenes/Menu/Explorer Law.unity
+    guid: ef0ecc5356ecbf640b45e07d8956b6fb
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1 Intro.unity
+    guid: dc143af8bf9efba46b3b3b04834fbde1
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1 Dialogue.unity
+    guid: 9c942aafa64d09b42a078b786b39fe57
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1.unity
+    guid: 0a0088320184ddc44a5a60ae6184d3a9
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1 Failure.unity
+    guid: ecd820d1da8293540b22b57a7feb2b65
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1 Success.unity
+    guid: 76b7a436a9dd3e444aa44a8c97cd1b22
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Minigame 1 End.unity
+    guid: e64621fa3a891f049bda1e84050239a3
+  - enabled: 1
+    path: Assets/Scenes/Minigame 1/Nym Scene.unity
+    guid: 73ff5186679e9c041b5dcfbeaca1ae14
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2 Dialogue.unity
+    guid: 6f57ed4846a8c844ab36b721999b52ee
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2 Intro.unity
+    guid: 166c591b1ee5c0f48a38dda86487d899
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2.unity
+    guid: a623d31fdba68644ca85dbe9cc0a8f2d
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2 Failure.unity
+    guid: 7f349de88a459304aa58712b097f6fff
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2 Success.unity
+    guid: a85e1ee340fe5824e881108d01fff1dc
+  - enabled: 1
+    path: Assets/Scenes/Minigame 2/Minigame 2 End.unity
+    guid: 4fad4361c5dfdcd4fbc1404ba4cce283
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Intro.unity
+    guid: 73f91c292c3e13347b83a202597c69e5
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3.unity
+    guid: b693d166528c0184d9545c0783ed8c86
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Dialogue.unity
+    guid: 2f155d998a3a58b48803df877ef9ad1c
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Chef.unity
+    guid: 5d3cd98aaf15c964e84701a9d854df5b
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Law.unity
+    guid: a05a8787c05dece45b4bc703e71ab49b
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 End.unity
+    guid: 575434fa2465d2c41a70e212014f281c
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Failure.unity
+    guid: 3427a4d851e74e24dac0e8d33e86e9ce
+  - enabled: 1
+    path: Assets/Scenes/Minigame 3/Minigame 3 Success.unity
+    guid: a552fe19106973d44ba5e611fcf7af74
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 307bd17fa2164254883916444089c187, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5fe6df25158fa024985e4eac6bfba4e6, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: e967f7b16bd96e74baf7f357311ba643, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 67e574ac12a96ad43b45263b090326da, type: 2}

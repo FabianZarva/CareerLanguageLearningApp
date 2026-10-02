@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5298afcdff46ca4c813237ef44013a8, type: 3}
+  m_Name: ChefSO
+  m_EditorClassIdentifier: 
+  BackgroundPortrait: {fileID: 21300000, guid: 645e9a259a41de64ba4edef50fc6c523, type: 3}
+  BackgroundLandscape: {fileID: 21300000, guid: cc196558994d1c44aa0811dbedf2c927, type: 3}
+  TestingTopSprite: {fileID: 21300000, guid: 0c574e9fc246b7148b1619016d580f99, type: 3}
+  TestingMiddleSprite: {fileID: 21300000, guid: 36d67cd2c449705418e8f1ac1c2baf2c, type: 3}
+  TestingBottomSprite: {fileID: 21300000, guid: b1a4b0a0f3c7897438bc6e61a0b09d53, type: 3}
+  PlayerCharacter: {fileID: 21300000, guid: 2955490620ac1f04b80152b05a79872b, type: 3}
+  NPC: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  PlayerCharacterHappy: {fileID: 21300000, guid: dd2068021d893374e9fe00147c8a0511, type: 3}
+  NPCHappy: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  PlayerCharacterSad: {fileID: 21300000, guid: 802c3a78de09e914290a1ae3f1bb62db, type: 3}
+  NPCSad: {fileID: 21300000, guid: 0cede20db2cb1a94f9715e7ff2b7b5c5, type: 3}
+  NPCName: Chef
+  MusicTrackName: Restaurant
+  BackgroundColor: {r: 0, g: 0.7607843, b: 1, a: 1}
+  TextColor: {fileID: 11400000, guid: 6dbd7ba94fe7d4143be681dcc20a332d, type: 2}
+  TermList:
+  - Dice
+  - Dress
+  - Fillet
+  - Broil
+  - "Pur\xE9e"
+  - Caramelize
+  - Skim
+  - Whip
+  - Roast
+  - Knead
+  - Sear
+  - Simmer
+  - Boil
+  - Poach
+  - Dollop
+  - Dash
+  - Pinch
+  - Baste
+  Minigame1Questions:
+  - Term1: Heat
+    Term2: Freeze
+    CorrectNym: Antonym
+    Explanation: These words have opposite meanings, making them antonyms of one
+      another.
+  - Term1: Cut
+    Term2: Dice
+    CorrectNym: Hyponym
+    Explanation: One of these words has a more specific meaning than the other, making
+      it a Hyponym.
+  - Term1: Knife
+    Term2: Steak knife
+    CorrectNym: Retronym
+    Explanation: This word changed meaning due to technological advancement, making
+      it a retronym.
+  - Term1: Stab
+    Term2: Skewer
+    CorrectNym: Synonym
+    Explanation: These words share the same meaning, making them synonyms.
+  - Term1: Caesar salad
+    Term2: Julius Caesar
+    CorrectNym: Eponym
+    Explanation: This term is derived/named after someone, making it an eponym.
+  Minigame2Questions:
+  - Instruction: Cut this onion into tiny cubes.
+    CorrectTerm: Dice
+    Minigame2Hint: Cutting something into tiny pieces, usually cubes, is referred
+      to as "Dicing".
+  - Instruction: Make sure the cheese is melted.
+    CorrectTerm: Broil
+    Minigame2Hint: Exposing food to heat on a spit or rack, often with the intent
+      of melting food like cheese, is to broil something.
+  - Instruction: Remove the foam from the broth.
+    CorrectTerm: Skim
+    Minigame2Hint: Removing foam or fat from a surface or liquid is done by skimming.
+  - Instruction: Brown the surface of the meat to seal in the juices.
+    CorrectTerm: Sear
+    Minigame2Hint: Cooking quickly over high heat to brown the surface and seal in
+      the meat's juices is called searing.
+  - Instruction: 'Add about 1/16 teaspoon of salt. '
+    CorrectTerm: Pinch
+    Minigame2Hint: 1/16 of a teaspoon is called a pinch in cooking and is usually
+      referring to seasonings like salt or pepper.
+  Minigame3Questions:
+  - Instruction: Chef's Knife
+    CorrectObjectName: ChefKnife
+    Hint: The chef's knife is a general purpose knife with a wide blade that can
+      be used to scoop up freshly cut ingredients.
+  - Instruction: Cleaver
+    CorrectObjectName: Cleaver
+    Hint: The cleaver is a large, wide knife. Used to chop trough bone and tough
+      meat.
+  - Instruction: Bread Knife
+    CorrectObjectName: BreadKnife
+    Hint: The bread knife is a long knife with a serrated edge, mainly used to cut
+      bread and cakes.
+  - Instruction: Filleting Knife
+    CorrectObjectName: FilletingKnife
+    Hint: The filetting knife is a narrow and flexible knife, mainly used to thinly
+      slice meat or fish near the bone.
+  - Instruction: Santoku Knife
+    CorrectObjectName: SantokuKnife
+    Hint: The Santoku knife is a general purpose knife of Japanese origin with flutes
+      on its blade to prevent food from sticking to the blade.
+  Minigame3Scene: Minigame 3 Chef
+  ExplorerWorld: Explorer Chef
+  Shopitem1: {fileID: 11400000, guid: 8fb5a2bacee7157468785303036f2d6c, type: 2}
+  Minigame1Script:
+  - Ah, cook. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame2Script:
+  - Ah, cook. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame3Script:
+  - Ah, cook. You're here. Let us begin.
+  - Today, we'll review [insert objective here]
+  - Let's get started, eh?
+  Minigame1Dialogue:
+  - text: Ah, cook. You're here. Let us begin.
+    characterSprite: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  - text: Today, we're going to check how your knowledge of cooking terms has come
+      along.
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  - text: This might prove more difficult than what you're used to.
+    characterSprite: {fileID: 21300000, guid: 0cede20db2cb1a94f9715e7ff2b7b5c5, type: 3}
+  - text: But, I'm sure you'll manage.
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  - text: Let's begin, shall we?
+    characterSprite: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  Minigame2Dialogue:
+  - text: Welcome back, today's task will be simple.
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  - text: Simply follow my instructions.
+    characterSprite: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  - text: We'll have a tasty meal in no time!
+    characterSprite: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  - text: Let's get started.
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  Minigame3Dialogue:
+  - text: Hello there, Chef!
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  - text: Oh wait, thats me. Sorry, cook.
+    characterSprite: {fileID: 21300000, guid: cec9cb545caebc3499997be9556a87c1, type: 3}
+  - text: Anyway, today, we'll be checking how well you can tell knives apart.
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
+  - text: Just be careful not to cut yourself, alright?
+    characterSprite: {fileID: 21300000, guid: 0cede20db2cb1a94f9715e7ff2b7b5c5, type: 3}
+  - text: We'll begin whenever you're ready!
+    characterSprite: {fileID: 21300000, guid: 69b279b895560564bb327bc52dd20f8c, type: 3}
